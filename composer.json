@@ -1,0 +1,17 @@
+{
+	"name": "cvo-technologies/custom-fields",
+	"type": "croogo-plugin",
+	"require": {
+		"croogo/croogo": "*",
+		"composer/installers": "*"
+	},
+	"authors": [
+		{
+		"name": "Marlin Cremers",
+		"email": "m.cremers@cvo-technologies.com"
+		}
+	],
+	"extra": {
+		"installer-name": "CustomFields"
+	}
+}
