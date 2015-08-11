@@ -1,9 +1,8 @@
 {
 	"name": "cvo-technologies/custom-fields",
-	"type": "croogo-plugin",
+	"type": "cakephp-plugin",
 	"require": {
-		"croogo/croogo": "*",
-		"composer/installers": "*"
+		"croogo/nodes": "3.*@dev"
 	},
 	"authors": [
 		{
@@ -11,7 +10,9 @@
 		"email": "m.cremers@cvo-technologies.com"
 		}
 	],
-	"extra": {
-		"installer-name": "CustomFields"
-	}
+    "autoload": {
+        "psr-4": {
+            "CustomFields\\": "src"
+        }
+    }
 }
